@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter_hero_animation/image.dart';
-import 'package:flutter_hero_animation/show.dart';
+import 'package:flutter_pull_to_refresh/homescreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +32,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Show(), 
+      home: HomePage()
     );
   }
 }
